@@ -387,7 +387,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rpi468-pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
