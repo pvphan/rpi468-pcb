@@ -1014,6 +1014,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9514883a-5cc9-45fa-a683-9d35d2e29e57)
   )
+  (wire (pts (xy 100.33 86.36) (xy 100.33 88.9))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9fbe201a-592c-4c6b-aa7a-261e2bb59d9a)
+  )
   (wire (pts (xy 132.08 68.58) (xy 229.87 68.58))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a1edf5f3-05f9-4e01-92ef-a47f1fbf84f6)
@@ -1368,24 +1372,6 @@
     (pin "5" (uuid 8268d61f-5686-4cd4-b242-f1030ee443d5))
   )
 
-  (symbol (lib_id "power:GND") (at 107.95 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid add2d16d-0672-41e4-9648-c6b1b11eedb1)
-    (property "Reference" "#PWR05" (id 0) (at 114.3 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 111.76 86.3599 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 107.95 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 107.95 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 411054c4-b108-4c1f-9a43-dece3e461ded))
-  )
-
   (symbol (lib_id "power:GND") (at 134.62 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b7ecc86a-81b7-4a8e-8228-983e4027de10)
@@ -1538,21 +1524,6 @@
     (pin "1" (uuid 61234bab-6b81-4f9a-bafe-8747709ab095))
   )
 
-  (symbol (lib_id "Device:R") (at 104.14 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid f619ccc9-65b6-46d1-9876-505c58d8035a)
-    (property "Reference" "R1" (id 0) (at 104.14 86.36 90))
-    (property "Value" "5.1k" (id 1) (at 104.14 83.82 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 104.14 88.138 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 104.14 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7714f138-9a5b-48bb-9bbe-e150766f965d))
-    (pin "2" (uuid e4edaa83-3f20-4b2a-9dc4-56c6e076680c))
-  )
-
   (symbol (lib_id "Comparator:LM397") (at 212.09 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f911c51f-a1bc-45ca-acf5-2820d357c16a)
@@ -1587,9 +1558,6 @@
     )
     (path "/2e3a7f88-7019-4a5e-8746-d73aa116ac67"
       (reference "#PWR04") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/add2d16d-0672-41e4-9648-c6b1b11eedb1"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
     (path "/8302c781-93fc-4971-b89b-aa336a815fd2"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
@@ -1626,9 +1594,6 @@
     )
     (path "/e68b378b-715b-4790-8da2-8ea2e44dd6a6"
       (reference "J3") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical")
-    )
-    (path "/f619ccc9-65b6-46d1-9876-505c58d8035a"
-      (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/2fa03c2b-51fc-4456-bdb0-f263cbb97ec2"
       (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
