@@ -3,3 +3,5 @@
 _autosave*.kicad_sch
 fp-info-cache
 _autosave*
+*.step
+*.stl
