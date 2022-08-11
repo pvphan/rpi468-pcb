@@ -1362,7 +1362,7 @@
     (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (id 2) (at 83.82 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (id 3) (at 83.82 53.34 0)
+    (property "Datasheet" "footprint only, do not populate" (id 3) (at 83.82 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6decbc3c-de48-43e1-9301-b0fa3f8829c0))
