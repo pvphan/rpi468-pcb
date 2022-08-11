@@ -5,3 +5,8 @@ fp-info-cache
 _autosave*
 *.step
 *.stl
+*.zip
+*.gbr*
+*.csv
+*.pos
+*.xml
